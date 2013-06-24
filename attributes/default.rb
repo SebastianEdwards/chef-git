@@ -31,7 +31,7 @@ when "mac_os_x"
   default['git']['osx_dmg']['checksum']    = "da83499f3305061792358bec26c20faa997b7ad9990713d1be2b03cbb5fbce12"
 else
   default['git']['prefix'] = "/usr/local"
-  default['git']['version'] = "1.8.0"
+  default['git']['version'] = "1.8.3.1"
   default['git']['url'] = "https://github.com/git/git/tarball/v#{node['git']['version']}"
   default['git']['checksum'] = "24f1895fa74a23b3d9233fa89a9ef04d83a1cd952d659720d6ea231bbd0c973c"
 end
